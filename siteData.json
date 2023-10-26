@@ -51,6 +51,7 @@
         "storage-component": "Storage component",
         "common-classes": "Common classes",
         "implementation": "Implementation",
+        "notifications-feature": "Notifications feature",
         "addalt-feature": "AddAlt feature",
         "edit-feature": "Edit Feature",
         "proposed-undo-redo-feature": "[Proposed] Undo/redo feature",
