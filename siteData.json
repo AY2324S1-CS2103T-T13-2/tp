@@ -115,8 +115,11 @@
       "title": "User Guide",
       "headings": {
         "campusconnect-user-guide": "CampusConnect User Guide",
+        "using-this-guide": "Using this Guide",
+        "who-is-this-guide-for": "Who is this guide for?",
+        "visual-components": "Visual Components",
         "table-of-contents": "Table of Contents",
-        "quick-start": "Quick start",
+        "quick-start": "Quick Start",
         "features": "Features",
         "request-help-coming-soon": "Request help [Coming Soon]",
         "add-normal-contact": "Add normal contact",
@@ -136,7 +139,7 @@
         "track-payment-coming-soon": "Track payment [Coming Soon]",
         "change-language-coming-soon": "Change language [Coming Soon]",
         "faq": "FAQ",
-        "known-issues": "Known issues",
+        "planned-enhancements-known-issues": "Planned Enhancements / Known Issues",
         "command-summary": "Command summary"
       },
       "headingKeywords": {}
