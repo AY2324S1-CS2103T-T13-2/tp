@@ -55,6 +55,7 @@
         "addalt-feature": "AddAlt feature",
         "edit-feature": "Edit Feature",
         "find-feature": "Find feature",
+        "update-photo-feature": "Update photo feature",
         "proposed-undo-redo-feature": "[Proposed] Undo/redo feature",
         "notes-feature": "Notes feature",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
