@@ -326,7 +326,7 @@ with(this){return _c('h3',{attrs:{"id":"update-photo-feature"}},[_v("Update phot
 with(this){return _c('h4',{attrs:{"id":"implementation-4"}},[_v("Implementation"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#implementation-4","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"commmand-logic"}},[_v("Commmand logic"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#commmand-logic","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"command-logic"}},[_v("Command logic"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#command-logic","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("The "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("UpdatePhotoCommand")]),_v(" feature allows users to update photo of a specific contact. This functionality is essential for forgetful users who want to store photos of contacts to remember them easier.")])}
@@ -347,7 +347,7 @@ with(this){return _c('p',[_v("When a user inputs a command to update photo of a 
 with(this){return _c('ol',[_c('li',[_v("Parse user input to create a "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("UpdatePhotoCommand")]),_v(" object.")]),_v(" "),_c('li',[_v("Execute the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("UpdatePhotoCommand")]),_v(", which involves:\n"),_c('ul',[_c('li',[_v("Retrieving the list of all persons.")]),_v(" "),_c('li',[_v("Validating the provided index.")]),_v(" "),_c('li',[_v("Creating an exact copy of the person at the provided index, except for the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Avatar")]),_v(".")]),_v(" "),_c('li',[_v("Replacing the specified person with their copy.")])])]),_v(" "),_c('li',[_v("Return a "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("CommandResult")]),_v(" indicating the outcome.")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("UpdatePhotoCommand(int index, String path)")]),_v(": Constructor to initialize the command.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("execute(Model model)")]),_v(": Updates the photo as well as the model.")])])}
+with(this){return _c('ul',[_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("UpdatePhotoCommand::UpdatePhotoCommand(Index index, String path)")]),_v(": Constructor to initialize the command.")]),_v(" "),_c('li',[_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("UpdatePhotoCommand::execute(Model model)")]),_v(": Updates the photo as well as the model.")])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"payments-feature"}},[_v("Payments feature"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#payments-feature","onclick":"event.stopPropagation()"}})])}
@@ -404,7 +404,7 @@ with(this){return _c('h3',{attrs:{"id":"notes-feature"}},[_v("Notes feature"),_c
 with(this){return _c('h4',{attrs:{"id":"implementation-6"}},[_v("Implementation"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#implementation-6","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('h5',{attrs:{"id":"commmand-logic-2"}},[_v("Commmand logic"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#commmand-logic-2","onclick":"event.stopPropagation()"}})])}
+with(this){return _c('h5',{attrs:{"id":"commmand-logic"}},[_v("Commmand logic"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#commmand-logic","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_v("The "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("AddNoteCommand")]),_v(" feature allows users to add personalized notes to a specific contact in the Address Book. This functionality is essential for users who wish to record additional information about their contacts.")])}
@@ -770,6 +770,6 @@ with(this){return _c('h3',{attrs:{"id":"efficiency-through-reuse"}},[_v("Efficie
 with(this){return _c('ul',[_c('li',[_c('strong',[_v("Extending AB3 Classes")]),_v(": We extended the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("Person")]),_v(" class to incorporate additional data fields crucial for the "),_c('code',{pre:true,attrs:{"class":"hljs inline no-lang"}},[_v("addalt")]),_v(" feature.")]),_v(" "),_c('li',[_c('strong',[_v("DateTime Libraries")]),_v(": We utilized existing DateTime libraries for efficient and correct parsing of time-related data, which improved our development speed as it meant we did not have to write our own date-time parsing code.")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Tue, 14 Nov 2023, 0:17:14 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.1.0")]),_v(", generated on Tue, 14 Nov 2023, 1:03:52 GMT+8]")])])])}
 }];
   
