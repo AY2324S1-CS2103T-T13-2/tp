@@ -77,7 +77,12 @@
         "adding-note-to-a-person": "Adding note to a person",
         "paying-money-to-a-person": "Paying money to a person",
         "owing-money-to-a-person": "Owing money to a person",
-        "finding-a-person": "Finding a person"
+        "finding-a-person": "Finding a person",
+        "appendix-effort": "Appendix: Effort",
+        "difficulty-level": "Difficulty Level",
+        "challenges-faced": "Challenges faced",
+        "achievements": "Achievements",
+        "efficiency-through-reuse": "Efficiency through Reuse"
       },
       "headingKeywords": {}
     },
